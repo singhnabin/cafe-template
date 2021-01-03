@@ -1,0 +1,17 @@
+.google__map {
+  position: relative;
+}
+.location__tag {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.location__tag div {
+  background: #2c2c2c;
+  color: #ffffff;
+  width: 200px;
+  margin: 0 auto;
+  font-size: 30px;
+  padding: 5px 10px;
+  text-align: center;
+}

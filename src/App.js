@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { Element } from "react-scroll";
+import "./App.css";
+import Base from "./Base";
+import ContactSection from "./component/contact-section/ContactSection";
+import Location from "./component/location/Location";
+import Product from "./component/product/Product";
+import Special from "./component/special/Special";
+import Index from "./landing/Index";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Base scroll>
+      <div className="App">
+        <Element name="home">
+          <Index />
+        </Element>
+
+        <Element name="special">
+          <Special />
+        </Element>
+        <Element name="product">
+          <Product />
+        </Element>
+        <Element name="location">
+          <Location />
+        </Element>
+        <Element name="contact">
+          <ContactSection />
+        </Element>
+      </div>
+    </Base>
   );
 }
 

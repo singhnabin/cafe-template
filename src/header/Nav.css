@@ -1,0 +1,16 @@
+.navbar-brand {
+  margin-left: 0;
+  font-size: 30px !important;
+}
+.navbar-nav {
+  margin-right: 20px;
+}
+.nav-link {
+  color: #fff !important;
+}
+.nav-link:hover {
+  color: #cad5e2 !important;
+}
+.show {
+  margin-left: 0;
+}

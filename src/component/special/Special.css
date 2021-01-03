@@ -1,0 +1,37 @@
+.special__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.special__text {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  width: fit-content;
+  text-decoration: underline;
+}
+.discount__wrapper {
+  margin-top: 15px;
+}
+.discount__percentage {
+  margin-left: 3vw;
+  align-items: flex-end;
+  text-align: center;
+  color: #ff4800;
+  font-size: 100px;
+  /* font-weight: 400; */
+  /* display: block; */
+  /* line-height: 120px; */
+  /* padding-left: 10px; */
+}
+
+.discount__percentage span:nth-child(2) {
+  color: #2c2c2c;
+  font-size: 50px;
+  /* font-weight: 400; */
+  display: block;
+}
+.discount__percentage p {
+  color: #2c2c2c;
+  font-size: 1rem;
+  display: inline-block;
+}

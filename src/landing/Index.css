@@ -1,0 +1,10 @@
+.cafe__page {
+  top: 0;
+  font-size: 25px;
+}
+.cafe__countdown {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 25%;
+}

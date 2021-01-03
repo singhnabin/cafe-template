@@ -1,0 +1,15 @@
+.product {
+  margin-top: 10px;
+  /* background-color: lightgray; */
+  width: 100%;
+}
+.product > h2 {
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.product__info {
+  display: flex;
+  flex-wrap: wrap;
+}
